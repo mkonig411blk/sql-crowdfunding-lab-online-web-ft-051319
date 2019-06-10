@@ -29,6 +29,7 @@ def selects_the_titles_and_amount_over_goal_of_all_projects_that_have_met_their_
       from projects 
       left join pledges
       on projects.id = pledges.project_id 
+      group by projects.title
       having amount_over_goal > 0;"
 end
 
