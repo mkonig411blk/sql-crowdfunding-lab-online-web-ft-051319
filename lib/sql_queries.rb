@@ -11,7 +11,7 @@ def selects_the_titles_of_all_projects_and_their_pledge_amounts_alphabetized_by_
       from projects 
       left join pledges 
       on projects.id = pledges.project_id 
-      order by projects.title ASC
+      order by(projects.title) ASC
       group by projecs.title;"
 end
 
