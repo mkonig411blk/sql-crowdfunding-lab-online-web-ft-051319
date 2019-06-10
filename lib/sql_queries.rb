@@ -47,7 +47,8 @@ def selects_the_category_names_and_pledge_amounts_of_all_pledges_in_the_music_ca
       from projects 
       left join pledges
       on projects.id = pledges.project_id 
-      where projects.category = 'music';
+      where projects.category = 'music'
+      order by pledges.amount DESC;
       "
 end
 
