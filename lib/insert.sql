@@ -46,3 +46,8 @@ INSERT INTO pledges (amount, user_id, project_id) VALUES (100, 3, 8);
 INSERT INTO pledges (amount, user_id, project_id) VALUES (100, 3, 8);
 INSERT INTO pledges (amount, user_id, project_id) VALUES (100, 3, 8);
 INSERT INTO users (name, age) VALUES ("Margot", 27);
+INSERT INTO users (name, age) VALUES ("Margot", 27);
+INSERT INTO users (name, age) VALUES ("Margot", 27);
+INSERT INTO users (name, age) VALUES ("Margot", 27);
+INSERT INTO users (name, age) VALUES ("Margot", 27);
+
